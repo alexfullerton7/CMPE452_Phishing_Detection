@@ -4,7 +4,7 @@ from PIL import Image
 import torch
 import torchvision.transforms as transforms 
 from torchvision.utils import save_image
-import AdaIN_net as net
+import CNN as net
 
 if __name__ == '__main__':
 
