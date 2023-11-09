@@ -1,2 +1,0 @@
-python train.py -content_dir ./Data/COCO1k/ -style_dir ./Data/wikiart1k/ -gamma 0.9 -e 40 -b 8 -l ./encoder.pth -s decoder1k.pth -p loss.NST1k.png -cuda Y
-python train.py -content_dir ./Data/COCO10k/ -style_dir ./Data/wikiart10k/ -gamma 0.9 -e 30 -b 8 -l ./encoder.pth -s decoder10k.pth -p loss.NST10k.png -cuda Y
